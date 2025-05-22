@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GPSafety</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" href="locationFavicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html#projects" class="logo">← Back</a>
+    <nav class="navbar">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About Me</a>
+      <a href="index.html#projects" class="active">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="projects" style="padding-top: 12rem;">
+    <h2 class="heading">GPSafety <span>Project</span></h2>
+    <div class="project-card" style="margin: auto; max-width: 900px; padding: 3rem;">
+      <img src="GPSafety.png" alt="GPSafety" style="width: 100%; height: auto; border-radius: 1rem; margin-bottom: 2rem;" />
+  
+      <h3>Overview</h3>
+      <p>
+        GPSafety is a Geographic Information System (GIS) project built in C++ that highlights crime hotspots in Toronto using OpenStreetMap and real-time data from the Toronto Police Service API. Unlike conventional navigation tools that optimize for speed, GPSafety prioritizes safety by guiding users away from high-risk areas.
+      </p>
+  
+      <h3>Features</h3>
+      <p>The project was developed in four milestone phases, each building on the previous:</p>
+      <ul style="text-align: left; font-size: 1.6rem; margin-left: 2rem;">
+        <li>Milestone 1: Data Structures
+            <ul class="sublist">
+                <li>Built efficient map-loading structures from OpenStreetMap data.</li>
+            </ul>
+        </li>
+        <li>Milestone 2: Graphics
+            <ul class="sublist">
+                <li>Designed an interactive UI with map rendering and POI visualization.</li>
+            </ul>
+        </li>
+      </ul>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
+        <img src="gpsDarkMode.png" alt="Dark Mode View" style="width: 100%; height: auto; border-radius: 1rem; margin-bottom: 2rem;" />
+        <img src="gpsHealth.png" alt="Health POIs" style="width: 100%; height: auto; border-radius: 1rem; margin-bottom: 2rem;" />
+      </div>
+      <ul style="text-align: left; font-size: 1.6rem; margin-left: 2rem; margin-top: 2rem;">
+        <li><strong>Milestone 3: Path Finding</strong> — Used A* algorithm to compute shortest paths between intersections.</li>
+        <li><strong>Milestone 4: Courier Optimization</strong> — Solved multi-stop delivery with simulated annealing + 2-opt optimization.</li>
+      </ul>
+      <img src="gpsDirection.png" alt="Direction Example" style="width: 100%; height: auto; border-radius: 1rem; margin-bottom: 2rem; margin-top: 2rem;" />
+  
+      <h3>Safety Alerts</h3>
+      <img src="gpsSafe.png" alt="Safety Alerts" style="width: 100%; height: auto; border-radius: 1rem; margin-bottom: 2rem; margin-top: 1rem;" />
+      <p>Real-time crime alerts pulled hourly from the TPS Calls API are shown directly on the map as hotspot overlays.
+        R. Durant, “Tpscalls.live,” tpscalls.live, https://www.tpscalls.live/ (accessed Mar. 10, 2025).
+      </p>
+  
+      <h3>Future Development</h3>
+      <ul style="text-align: left; font-size: 1.6rem; margin-left: 2rem;">
+        <li><strong>Live Route Sharing:</strong> Allow users to share their active path with friends/family in real-time.</li>
+        <li><strong>Global Crime Integration:</strong> Expand safety feature beyond Toronto to other cities.</li>
+      </ul>
+  
+      <div style="margin-top: 3rem;">
+        <a href="index.html#projects" class="btn">← Back to Projects</a>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

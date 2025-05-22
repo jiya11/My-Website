@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiya Shah</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"><span>Jiya Shah</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2><span>Hello World, I'm</span></h2>
+            <h3>Jiya Shah</h3>
+            <h4 class="text-animation">I'm a <span></span></h4>
+            <p>Third-year Computer Engineering student at the University of Toronto with a passion for technology, innovation, and problem-solving.</p>
+            <div class="btn-group">
+                <a href="#about" class="btn">More About Me</a>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="my-image.png" alt="Jiya Shah">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="my-image.png" alt="Jiya Shah">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a third-year Computer Engineering student at the University of Toronto with a deep passion for innovation, problem-solving, and helping people through technology. I love being in the city, surrounded by new ideas, fast-paced energy, and groundbreaking tech. It fuels my curiosity every day.</p>
+            <p>Coding isn't just a skill for me, it's something I genuinely enjoy and I'm always eager to explore new ways of building and learning. My goal is to use what I know, and what I'm still learning, to create real, meaningful impact.</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="GPSafety.png" alt="GPSafety">
+                <h3>GPSafety</h3>
+                <p>A C++ geographic information system that showcases city crime hotspots using Toronto Police Service API data. Features pathfinding algorithms to generate quick routes, built with OpenStreetMap spatial data.</p>
+                <a href="gpsafety.html" class="btn">See More</a>
+            </div>
+
+            <div class="project-card">
+                <img src="Phishing_Reel.png" alt="Phishing Reel">
+                <h3>Phishing Reel</h3>
+                <p>A phishing email detector to analyze your Gmail inbox for suspicious messages, built with React, Flask, and a custom-trained neural network.</p>
+                <a href="phishingReel.html" class="btn">See More</a>
+            </div>
+
+            <div class="project-card">
+                <img src="miniDDR.png" alt="Mini Dance Dance Revolution">
+                <h3>Mini DDR</h3>
+                <p>A two-player mini Dance Dance Revolution (DDR) game implemented in Verilog HDL on an FPGA board.
+                </p>
+                <a href="miniDDR.html" class="btn">See More</a>
+            </div>
+
+            <div class="project-card">
+                <img src="BrowserFlix.png" alt="BrowserFlix">
+                <h3>BrowserFlix</h3>
+                <p>A React-based movie browsing application that allows users to search for and explore detailed information about films using The Movie Database (TMDB) API. The application features a responsive design with intuitive navigation for an enhanced viewing experience.</p>
+                <a href="browserFlix.html" class="btn">See More</a>
+            </div>
+
+            <div class="project-card">
+                <img src="CrazyTaxi.png" alt="CrazyTaxi">
+                <h3>Crazy Taxi on FPGA</h3>
+                <p>A custom implementation of the classic arcade-style driving game built from scratch in C and deployed on an FPGA board. The game features custom graphics rendering, hardware-level input processing, and real-time scoring on a seven-segment display.</p>
+                <a href="crazyTaxi.html" class="btn">See More</a>
+            </div>
+
+            <div class="project-card">
+              <h3>Align - Mental Health Wearable Device</h3>
+              <p>Coming Soon.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-icons">
+            <a href="#" id="copy-email" title="Click to copy email"><i class='bx bxl-gmail'></i></a>
+            <a href="https://www.linkedin.com/in/-jiyashah/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/jiya11" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
