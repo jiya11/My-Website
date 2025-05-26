@@ -245,11 +245,11 @@ span {
     }
     61%,
     80% {
-        content: "Problem Solver";
+        content: "Innovation Seeker";
     }
     81%,
     100% {
-        content: "idk yet";
+        content: "Coffee-Powered Coder";
     }
 }
 
@@ -479,6 +479,10 @@ span {
     .home-img {
         margin-left: 0;
     }
+
+    .btn {
+        text-align: center;
+    }
     
     .about {
         flex-direction: column;
@@ -503,6 +507,10 @@ span {
     #menu-icon {
         display: block;
         cursor: pointer;
+    }
+
+    .btn {
+        text-align: center;
     }
     
     .navbar {
@@ -542,6 +550,10 @@ span {
         width: 6rem;
         height: 6rem;
         font-size: 3rem;
+    }
+
+    .btn {
+        text-align: center;
     }
     
     .project-card {
